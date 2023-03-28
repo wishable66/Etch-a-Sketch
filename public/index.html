@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Etch-a-Sketch</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="range.css">
   <script src="index.js" defer></script>
 </head>
 <body>
@@ -16,11 +17,12 @@
 
     <main>
       <div class="settings">
-        <input type="color" name="colorPicker" id="colorPicker">
+        <input type="color" name="colorPicker" id="colorPicker" class="color-picker">
         <button class="btn-color">Color Mode</button>
         <button class="btn-eraser">Eraser Mode</button>
-        <button class="reset"></button>
-        <input type="range" name="size-slider" id="size-slider" min="1" max="64">
+        <button class="reset">Clear</button>
+        <div class="grid-size">16 x 16</div>
+        <input type="range" name="size-slider" id="size-slider" min="1" max="64" class="slider">
       </div>
       <div class="grid">
       </div>
