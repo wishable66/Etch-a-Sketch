@@ -93,12 +93,19 @@ input[type="color"]::-webkit-color-swatch-wrapper {
 
 /* Buttons */
 
+.active {
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--tanColor);
+  border-radius: 4px;
+}
+
 .btn-color,
 .btn-eraser,
 .reset {
   color: var(--tanColor);
   padding: 15px;
   font-family: 'Raleway', sans-serif;
+  border-radius: 10px;
 }
 
 .btn-color,
